@@ -1,0 +1,46 @@
+</head>
+<body>
+<table>
+    <tr>
+        <td>First Number</td>
+        <td>
+            <input name="firstnumber" id="firstnumber" placeholder="Enter First Number">
+        
+        </td>
+    </tr>
+    <tr>
+        <td>Second Number</td>
+        <td>
+            <input name="secondnumber" id="secondnumber" placeholder="Enter Second Number">
+        </td>
+    </tr>
+    <tr>
+        <td>Result</td>
+        <td>
+            <input name="result" id="result" placeholder="Result">
+        </td>
+    </tr>
+    <tr>
+        <td>Result</td>
+        <td id="resultTd">
+
+        </td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>
+            <input onclick="jsfunction()" type="button" name="submitButton">
+        </td>
+    </tr>
+</table>
+</body>
+<script>
+    function jsfunction()
+    {
+        var firstNumber=document.getElementById('firstNumber').value;
+        var secondNumber=document.getElementById('secondNumber').value;
+        alert(firstNumber);
+        alert("Hello World");
+
+    }
+</script>
